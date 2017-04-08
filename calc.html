@@ -1,0 +1,271 @@
+                        <!DOCTYPE html>
+
+<html>
+
+<head>
+	
+<title>
+		
+	</title>
+	
+<!-- Latest compiled and minified CSS -->
+
+<style>
+body {
+	background-image: url("Images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+div.col1 {
+	font-family: 'Arvo', serif;
+	height : 25%;
+	width : 100%;
+	border-left: 6px solid yellow;
+	padding: 5%;	
+	background-color : #0f0000;
+	color : lightgrey;
+}
+
+div.c2 {
+	text-aligned : center;
+	padding : 5%;
+	background-color :#000b1e;
+	color: lightgrey;
+}
+
+input {
+	width : 80%;
+	padding : 10px;
+	background-color: #333; 
+	color: lightgrey;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: lightgrey;
+    background-color: #000b1e;
+}
+
+ul.a1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: lightgrey;
+    background-color: #0f0000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 4px solid yellow;
+}
+
+li a:hover {
+    background-color: #111;
+	}
+
+div.cal {
+		max-width: 215px;
+		color: lightgrey;
+	}
+
+}
+
+.button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 13px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+.button3 {
+    background-color: #ed0300;
+    border: none;
+    color: lightgrey;
+    padding: 2px 12px;
+    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button3:hover {
+    background-color: #ff1e1e; 
+    color: lightgrey;
+}
+
+
+.button31 {
+    background-color: #003487;
+    border: none;
+    color: lightgrey;
+    padding: 18px 21px;
+    box-shadow: 0px 8px 16px 10px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button31:hover {
+    background-color: #5121ff; 
+    color: lightgrey;
+}
+
+
+.button32 {
+    background-color: #eeff0c;
+    border: none;
+    color: black;
+    padding: 18px 21px;
+    box-shadow: 0 8px 16px 10px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button32:hover {
+    background-color: #c7e502; 
+    color: black;
+}
+
+</style>	
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<!-- Optional theme -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+
+
+<body>
+
+<br>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="col1"><h2>Basic Tools To help You Out in Day to Day Tasks</h2>
+</div></div>
+<br>
+<div class="col-md-6">
+<div class="col1"><h4>Developed by :<h4><p>Anuj Baranwal<br>Shantanu Das<br></p>
+</div></div></div><br>
+<ul class="a1">
+  <li><a class="active">CALCULATOR</a></li>
+  <li><a>DATE & TIME</a></li>
+</ul>
+<br>
+<br>
+<div class="c2">
+<h2 style="font-family: 'Orbitron', sans-serif;">Calculator</h2>
+<br>
+
+<!--<input type="text" value="Enter expression - e.g : Num1 Num2 operator " id="inputCalculator">
+<h4 id="displayResult"></h4>
+<button class ="button" onclick="onclickResultButton();">Result</button></p>
+-->
+<div class="cal">
+<input type="text" name="calc">
+<button type="button" class="button3"><h4>C</h4></button>
+<ul>
+
+  <li><button type="button" class="button31"><h4>7</h4></button></li>
+  <li><button type="button" class="button31"><h4>8</h4></button></li>
+  <li><button type="button" class="button31"><h4>9</h4></button></li>
+  <li><button type="button" class="button32"><h4>&nbsp;/</h4></button></li>
+  <li><button type="button" class="button31"><h4>4</h4></button></li>
+  <li><button type="button" class="button31"><h4>5</h4></button></li>
+  <li><button type="button" class="button31"><h4>6</h4></button></li>
+  <li><button type="button" class="button32"><h4>&nbsp;*</h4></button></li>
+  <li><button type="button" class="button31"><h4>1</h4></button></li>
+  <li><button type="button" class="button31"><h4>2</h4></button></li>
+  <li><button type="button" class="button31"><h4>3</h4></button></li>
+  <li><button type="button" class="button32"><h4>&nbsp;-</h4></button></li>
+  <li><button type="button" class="button31"><h4>&nbsp;.</h4></button></li>
+  <li><button type="button" class="button31"><h4>0</h4></button></li>
+  <li><button type="button" class="button31"><h4>=</h4></button></li>
+  <li><button type="button" class="button32"><h4>+</h4></button></li>
+
+
+
+</ul>
+</div>
+
+
+<script type="text/javascript">
+	
+function onclickResultButton() {
+		
+var expression = $("#inputCalculator").val();
+		
+var arrayOfResults = expression.split(" ");
+
+		if (arrayOfResults.length == 3) {
+
+			var val1 = parseInt(arrayOfResults[0]);
+			
+
+			if(isNaN(val1)) {
+			
+				$("#displayResult").text("Not a valid expression!!");
+	
+			}
+			
+		
+				var val2 = parseInt(arrayOfResults[1]);
+			
+
+				if(isNaN(val2)) {
+			
+					$("#displayResult").text("Not a valid expression!!");	
+		
+			}
+
+		
+				var val3 = arrayOfResults[2];
+		
+				var index;
+
+				if((index = $.inArray(val3, ["+", "-", "*", "/"])) != -1 ) {
+
+					$("#displayResult").text(eval(val1 + ["+", "-", "*", "/"][index] + val2));
+		
+			}
+
+			
+		}
+		else {
+
+			$("#displayResult").text("Not a valid expression!!");
+
+			}
+
+		}
+
+</script>
+
+</body>
+
+</html>
